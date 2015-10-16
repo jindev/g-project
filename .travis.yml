@@ -6,3 +6,7 @@ node_js:
 
 notifications:
   slack: gab-project:B06sOTldqFNp7pTSGUHJtGJd
+
+deploy:
+  provider: heroku
+  api_key: "9a24b740-d45d-41b2-a3bd-01cc46af69a1"
