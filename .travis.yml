@@ -12,4 +12,4 @@ deploy:
   api_key: "9a24b740-d45d-41b2-a3bd-01cc46af69a1"
   app : "gab-project"
   on:
-  repo: jindev/g-project
+    repo: jindev/g-project
