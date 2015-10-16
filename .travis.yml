@@ -1,15 +1,14 @@
 language: node_js
 node_js:
-  - "4.1"
-  - "4.0"
-  - "0.12"
-
+- '4.1'
+- '4.0'
+- '0.12'
 notifications:
-  slack: "gab-project:B06sOTldqFNp7pTSGUHJtGJd"
-
+  slack: gab-project:B06sOTldqFNp7pTSGUHJtGJd
 deploy:
   provider: heroku
-  api_key: "9a24b740-d45d-41b2-a3bd-01cc46af69a1"
-  app : "gab-project"
+  api_key:
+    secure: oJvTGgFQkxhDi8DQDSBqZ1io0yOTFkYZQoi7IsR03B+1zKFoTFV38Q1hsrPER2pvPF8Lyz4HNJT3/Z6/zy+sg9lAxD9ZLy/JNxFlPk4biyzmWUf7W4Bm+4Pwy20LFK2yUw00K9Mfo6Eb5zb87sTm2hDv7+qxF8BRtAQml9LJK9e6/BV/QJXyFV99tYcvfzvpKNj9BhF5zyZ+9uB1bDf5ibRkvhY8+0tBECR7RxTB6J9//H8Ba+BIYKnIeak/hUmDoKKHyjBz+4qQStDpEh+du0y0EFn2NYBpbNM5JthTk2CxPaodtqHwq+oqoyALV1V1A1+cApVjDpe5vL9SxUxDgZWaGreE/O2QXdjd24vIeeNKfbzo6Q5RqtxGKyTKBsbKAYo2MWXYy3nhk6TCW8bI5hsP/2Ct37hr/h8v9Kav38GzMircBoJr5NF0A142+aVG2bbO4C//aVIh/v6aNZQcnkXuLoNXZxVuN+jct8C/DE2uyVpK6CpUWRbz91IDz5a4GWazwq7iuEfgOH8RUf2wAYu+ohwOyh0F92KuHyE9WE5M9UTeq32o4r4zN2hDwOw5LH8USJ8o+6zGSP++HLPTgr5mld0aM53h3COstT0h7hty7EAKtuziYs4KSE8fFH47BwHCy0rVFhYLJJSw4FjRl/0iQ0LjKD/OyqqRBfiSkUQ=
+  app: g-project
   on:
     repo: jindev/g-project
