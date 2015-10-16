@@ -12,3 +12,4 @@ deploy:
   app: g-project
   on:
     repo: jindev/g-project
+after_success: ./scripts/marge_script.sh
